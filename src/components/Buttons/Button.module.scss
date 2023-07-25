@@ -1,0 +1,21 @@
+.button {
+  border: none;
+  width: 100%;
+  background-color: var(--color-primary);
+  color: var(--white);
+  letter-spacing: 2px;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  transition: all .3s;
+  @media only screen and (max-width: 375px) {
+      font-size: .8rem;
+     
+    }
+  &:hover {
+    background-color: var(--white);
+    color: var(--color-primary);
+    cursor: pointer;
+  }
+}

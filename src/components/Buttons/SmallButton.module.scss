@@ -1,0 +1,27 @@
+.small-button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgba(124, 135, 152, 0.1);
+  text-align: center;
+  border: none;
+  display: block;
+  color: var(--medium-grey);
+  font-size: 0.92rem;
+  transition: all 0.3s;
+  @media only screen and (max-width: 375px) {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+     
+  }
+  &:hover {
+    background-color: var(--color-primary);
+    color: var(--white);
+    cursor: pointer;
+  }
+}
+.active {
+  background-color: rgba(124, 135, 152, 0.8);
+  color: var(--white);
+}

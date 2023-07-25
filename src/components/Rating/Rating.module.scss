@@ -1,0 +1,22 @@
+.rating {
+  &__heading {
+    color: var(--light-grey);
+    @media only screen and (max-width: 375px) {
+     font-size: 1.4rem;
+  }
+  }
+  &__font{
+    color: var(--medium-grey);
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    @media only screen and (max-width: 375px) {
+     font-size: .85rem;
+    }
+}
+&__row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+}

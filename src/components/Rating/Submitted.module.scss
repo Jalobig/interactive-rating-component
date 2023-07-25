@@ -1,0 +1,38 @@
+h1{
+    color: var(--light-grey);
+    margin-bottom: .5rem;
+    @media only screen and (max-width: 375px) {
+     font-size: 1.3rem;
+    }
+}
+
+p{
+    color: var(--medium-grey);
+    line-height: 1.5;
+    font-size: 15px;
+    @media only screen and (max-width: 375px) {
+        font-size: 13px;
+     
+    }
+}
+.submitted{
+    text-align: center;
+}
+.illustration {
+    display: block;
+    margin: 1rem auto;
+}
+.selection {
+    background-color: rgba(124, 135, 152, 0.1);
+    color: var(--color-primary-dark);
+    margin: 3rem auto;
+    text-align: center;
+    width: 12rem;
+    padding: .3rem;
+    border-radius: 1rem;
+    @media only screen and (max-width: 375px) {
+        margin: 2rem auto;
+        font-size: .8rem;
+        width: 10rem;
+    }
+}
