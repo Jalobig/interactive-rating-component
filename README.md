@@ -12,7 +12,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -33,13 +32,13 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution: [Solution Url](https://github.com/Jalobig/interactive-rating-component)
+- Live Site URL: [Live site URL](https://Jalobig.github.io/interactive-rating-component/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
 - Sass custom properties
 - Flexbox
 - Desktop-first workflow
